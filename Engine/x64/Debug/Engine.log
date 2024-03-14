@@ -1,0 +1,4 @@
+﻿  Application.cpp
+C:\Users\carte\Desktop\code\UnamedGameDirectX\Engine\Application.cpp(3,14): warning C4273: 'Application::Application': inconsistent dll linkage
+C:\Users\carte\Desktop\code\UnamedGameDirectX\Engine\Application.h(8,2): message : see previous definition of '{ctor}'
+  Engine.vcxproj -> C:\Users\carte\Desktop\code\UnamedGameDirectX\x64\Debug\Engine.dll
