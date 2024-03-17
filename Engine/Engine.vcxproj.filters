@@ -4,10 +4,16 @@
     <Filter Include="source">
       <UniqueIdentifier>{ef5b74f4-846b-4c06-8631-4a22b016cee8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="source\_PCH">
+      <UniqueIdentifier>{181fbba7-44f1-4386-8286-fc84de4a95be}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Application.cpp">
       <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="PCH.cpp">
+      <Filter>source\_PCH</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -16,6 +22,9 @@
     </ClInclude>
     <ClInclude Include="Application.h">
       <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="PCH.h">
+      <Filter>source\_PCH</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
